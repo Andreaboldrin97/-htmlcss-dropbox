@@ -344,3 +344,13 @@ i{
 .faq-text:hover .arrow{
     display: none;
 }
+/* footer */
+
+footer{
+    margin-top: 80px;
+    color: white;
+    background-color: black;
+}
+.element{
+    padding-top: 50px;
+}
