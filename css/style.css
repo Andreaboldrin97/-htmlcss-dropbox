@@ -235,6 +235,7 @@ i{
     width: 100%;
     margin: 0 auto;
     margin-top: 100px;
+    background-color: rgb(235, 232, 232);
 }
 .logo-company{
     width: 16vw;
@@ -247,7 +248,7 @@ i{
     left: 50%;
     transform: translate(-50% , -50%);
 }
-.company-left{
+.company-left , .company-right{
     width: 33%;
     display: flex;
     flex-wrap: wrap;
@@ -257,10 +258,31 @@ i{
     width: 33%;
 }
 .company-right{
-    width: 33%;
+    justify-content: flex-end;
 }
 /* colori-company */
 .desingit-corp{
-    background-color: lightgreen;
+    background-color: rgb(61, 246, 89);
     padding: 10px;
+}
+.arizona-corp{
+    background-color: rgb(90,10, 38);
+}
+.florida-corp{
+    background-color: rgb(0,136, 198);
+}
+.topps-corp{
+    background-color: rgb(255, 27, 37);
+}
+.wbr-corp{
+    background-color: rgb(217, 1, 35);
+}
+.heart-corp{
+    background-color: rgb(167, 202, 226);
+}
+.lonely-corp{
+    background-color: rgb(2, 33, 115);
+}
+.cchannel-corp{
+    background-color: rgb(255, 210, 63);
 }
