@@ -18,16 +18,18 @@ li a{
     background-color: blue;
     padding: 5px 10px;
     color: white;
+    text-decoration: none;
 }
 .flex-content{
     display: flex;
 }
 .container-big{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    margin-top: 70px;
 }
 .container-small{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 .flex-jsbetween{
@@ -36,16 +38,54 @@ li a{
 .bordo{
     border: 2px solid red;
 }
+h1{
+    font-size: 50px;
+}
+img{
+    width: 100%;
+}
 
 /*header*/
 
 .head{
+    width: 100%;
     height: 70px;
     text-align: center;
-    
-
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 .fix-r , .fix-l{
     width: 33%;
     margin: 20px;
+}
+
+/*main*/
+.head-section{
+    background-color: rgb(167, 202, 226);
+}
+.text-area{
+    width: 25%;
+    font-size: 15px;
+    margin-top: 85px;
+}
+.text-area div{
+    margin-top: 30px;
+}
+.text-area div i{
+    font-size: 50px;
+}
+.text-area a i{
+    color: black;
+    margin-top: 35px;
+}
+.img-area{
+    width: 75%;
+    position: relative;
+    top:0
+}
+.img-area img{
+    position: relative;
+    top: 80px;
+    left: 0;
 }
