@@ -20,6 +20,19 @@ li a{
     color: white;
     text-decoration: none;
 }
+.btn-big a{
+    color: white;
+    text-decoration: none;
+}
+.btn-big{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
 .flex-content{
     display: flex;
 }
@@ -138,8 +151,12 @@ i{
     margin: 20px auto;
 }
 .text-card div{
-    margin: 20px auto;
+    margin: 30px auto;
 }
+.text-card .btn{
+    margin: 50px auto;
+}
+
 .text-card hr{
     width: 20%;
 }
@@ -148,4 +165,24 @@ i{
 }
 .check i{
     color: blue;
+}
+/* card4 */
+.support{
+    margin-top: 40px;
+}
+.support-area{
+    margin: 20px;
+}
+.text-support{
+    width: 70%;
+}
+.text-support h3{
+    margin-bottom: 20px;
+}
+.text-support p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.link-area{
+    width: 30%;
 }
