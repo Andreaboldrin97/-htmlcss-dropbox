@@ -208,3 +208,18 @@ i{
     color: black;
     border: 1px solid black;
 }
+/* sezione4 */
+.dp-business{
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.card-business{
+    margin-top: 20px;
+    width: calc( 100% / 3 - 30px);
+}
+.card-business h3{
+    margin: 10px auto;
+}
+.card-business p{
+    margin: 25px auto;
+}
