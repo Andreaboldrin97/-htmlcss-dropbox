@@ -242,6 +242,7 @@ i{
     position: relative;
 }
 .logo-company img{
+    filter: invert(1);
     padding: 30px;
     position: absolute;
     top: 50%;
@@ -257,8 +258,19 @@ i{
 .company-descition{
     width: 33%;
 }
+.company-text{
+    overflow: auto;
+}
 .company-right{
     justify-content: flex-end;
+}
+.logo-text{
+    width: 250px;
+    margin: 30px;
+}
+.company-descition p{
+    margin: 30px;
+
 }
 /* colori-company */
 .desingit-corp{
@@ -285,4 +297,27 @@ i{
 }
 .cchannel-corp{
     background-color: rgb(255, 210, 63);
+}
+/* sezione 7 */
+.section-input{
+    padding: 80px 0 ;
+    background-color: rgb(167, 202, 226);
+    justify-content: space-between;
+}
+.text-support h3{
+    font-size: 35px;
+    color: rgb(90,10, 38); ;
+}
+.text-input{
+    width: 60%;
+}
+.text-input .btn a {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
+.section-input .link-area{
+    margin-top: 15px;
+    width: 40%;
+    margin-left: 100px;
 }
