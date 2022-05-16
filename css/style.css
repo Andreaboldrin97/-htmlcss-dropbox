@@ -230,3 +230,37 @@ i{
 .adv-area h2{
     margin: 20px auto;
 }
+/* sezione6 */
+.company{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.logo-company{
+    width: 16vw;
+    position: relative;
+}
+.logo-company img{
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.company-left{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+.company-descition{
+    width: 33%;
+}
+.company-right{
+    width: 33%;
+}
+/* colori-company */
+.desingit-corp{
+    background-color: lightgreen;
+    padding: 10px;
+}
