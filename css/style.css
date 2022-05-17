@@ -217,8 +217,9 @@ i{
     border: 1px solid black;
 }
 /* sezione4 */
+
 .dp-business{
-    margin-top: 80px;
+    margin-top: 70px;
     flex-wrap: wrap;
 }
 .card-business{
