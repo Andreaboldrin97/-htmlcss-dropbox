@@ -14,6 +14,10 @@ li a{
     text-decoration: none;
     color: black;
 }
+.head a {
+    padding: 28px 0;
+}
+
 .btn a{
     background-color: blue;
     padding: 5px 10px;
@@ -63,7 +67,7 @@ i{
     margin-right: 5px;
 }
 .border{
-    border: 1px solid rgb(213, 211, 211);
+    border: 3px solid rgb(213, 211, 211);
 }
 
 /*header*/
@@ -76,12 +80,16 @@ i{
     top: 0;
     background-color: white;
     z-index: 999;
+    border-bottom: 1px solid rgb(213, 211, 211) ;
 }
 .fix-r , .fix-l{
     width: 33%;
     margin: 20px;
 }
-
+/* hover header */
+.head .select-link:hover{
+    border-bottom: 3px solid black;
+}
 /*main*/
 
 .head-section{
@@ -297,6 +305,11 @@ i{
 }
 .cchannel-corp{
     background-color: rgb(255, 210, 63);
+}
+/* sezione 6 hover */
+.logo-company:hover{
+    box-shadow: 3px 3px 18px #a5a5a5 inset,
+        -1px -1px 10px #e2e2e2 inset;
 }
 /* sezione 7 */
 .section-input{
