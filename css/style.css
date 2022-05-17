@@ -261,14 +261,13 @@ i{
 }
 .company-left , .company-right{
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
 }
 .company-descition{
     width:calc(100% / 3);
-}
-.company-text{
+    height: calc(100vw / 3);
     overflow: auto;
 }
 .company-right{
