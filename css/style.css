@@ -247,7 +247,8 @@ i{
     background-color: rgb(235, 232, 232);
 }
 .logo-company{
-    width: 16vw;
+    width: 50%;
+    height: 50%;
     position: relative;
 }
 .logo-company img{
@@ -259,13 +260,13 @@ i{
     transform: translate(-50% , -50%);
 }
 .company-left , .company-right{
-    width: 33%;
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
     height: 500px;
 }
 .company-descition{
-    width: 33%;
+    width:calc(100% / 3);
 }
 .company-text{
     overflow: auto;
