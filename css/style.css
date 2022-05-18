@@ -421,3 +421,20 @@ select{
     background-color: black;
     color: white;
 }
+
+ /* form di registrazione */
+
+ .form-wrap{
+     margin-top: 120px;
+     text-align: center;
+     background-color: rgb(167, 202, 226);
+ }
+ .form-input{
+     padding: 30px 0;
+     display: flex;
+     flex-direction: column;
+ }
+ .form-input input{
+     margin: 20px auto;
+     padding: 10px;
+ }
