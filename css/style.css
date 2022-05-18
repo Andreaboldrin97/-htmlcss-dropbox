@@ -67,7 +67,7 @@ i{
     margin-right: 5px;
 }
 .border{
-    border: 3px solid rgb(213, 211, 211);
+    border: 1px solid rgb(213, 211, 211);
 }
 
 /*header*/
@@ -79,7 +79,7 @@ i{
     position: fixed;
     top: 0;
     background-color: white;
-    z-index: 999;
+    z-index: 999; /*perche le img in absolute andavano sopra  */
     border-bottom: 1px solid rgb(213, 211, 211) ;
 }
 .fix-r , .fix-l{
@@ -146,6 +146,7 @@ i{
     margin-top: 20px;
 }
 .title-card{
+    padding: 5px;
     text-align: center;
     border-bottom: 1px solid rgb(213, 211, 211);
 }
@@ -184,10 +185,11 @@ i{
 .text-support{
     width: 70%;
 }
-.text-support h3{
+.text-soluction h3{
+    font-size: 35px;
     margin-bottom: 20px;
 }
-.text-support p{
+.text-soluction p{
     margin-top: 30px;
     font-size: 15px;
 }
